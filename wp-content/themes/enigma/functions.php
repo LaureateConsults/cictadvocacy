@@ -28,7 +28,7 @@
 			'height'=>'55',
 			'width'=>'150',
 			'_frontpage' => '1',
-			'blog_count'=>'3',
+			'blog_count'=>'1',
 			'upload_image_favicon'=>'',			
 			'custom_css'=>'',
 			'slide_image_1' => $ImageUrl,
@@ -133,12 +133,12 @@
 	    //Blog Thumb Image Sizes
 		add_image_size('home_post_thumb',340,210,true);
 		//Blogs thumbs
-		add_image_size('wl_page_thumb',730,350,true);	
+		add_image_size('wl_page_thumb',730,350,true);
 		add_image_size('blog_2c_thumb',570,350,true);
 		add_theme_support( 'title-tag' );
 		// Load text domain for translation-ready
-		load_theme_textdomain( 'enigma', WL_TEMPLATE_DIR_CORE . '/lang' );	
-		
+		load_theme_textdomain( 'enigma', WL_TEMPLATE_DIR_CORE . '/lang' );
+
 		add_theme_support( 'post-thumbnails' ); //supports featured image
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menu( 'primary', __( 'Primary Menu', 'enigma' ) );
@@ -157,18 +157,18 @@
 	
 
 	// Read more tag to formatting in blog page 
-	function weblizar_content_more($more)
-	{  							
-	   return '<div class="blog-post-details-item"><a class="enigma_blog_read_btn" href="'.get_permalink().'"><i class="fa fa-plus-circle"></i>"'.__('Read More', 'enigma' ).'"</a></div>';
-	}   
-	add_filter( 'the_content_more_link', 'weblizar_content_more' );
+//	function weblizar_content_more($more)
+//	{
+//	   return '<div class="blog-post-details-item"><a class="enigma_blog_read_btn" href="'.get_permalink().'"><i class="fa fa-plus-circle"></i>"'.__('Read More', 'enigma' ).'"</a></div>';
+//	}
+	//add_filter( 'the_content_more_link', 'weblizar_content_more' );
 	
 	
 	// Replaces the excerpt "more" text by a link
-	function weblizar_excerpt_more($more) {      
-	return '';
-	}
-	add_filter('excerpt_more', 'weblizar_excerpt_more');
+//	function weblizar_excerpt_more($more) {
+//	return '';
+//	}
+	//add_filter('excerpt_more', 'weblizar_excerpt_more');
 	/*
 	* Weblizar widget area
 	*/
@@ -368,12 +368,12 @@ if (is_admin()) {
 //Plugin Recommend
 add_action('tgmpa_register','enigma_plugin_recommend');
 function enigma_plugin_recommend(){
-	$plugins = array(
+	$plugins = array(/*
 	array(
             'name'      => 'Responsive Coming Soon',
             'slug'      => 'responsive-coming-soon-page',
             'required'  => false,
-        ),/* 
+        ),
 	array(
             'name'      => 'Photo Video Link Gallery',
             'slug'      => 'photo-video-link-gallery',
