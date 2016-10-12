@@ -233,7 +233,7 @@
         } else {
             $cat = get_the_category();
             $cat = $cat[0];
-            //echo get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
+            echo get_category_parents($cat, TRUE, ' ' . $delimiter . ' ');
             echo $before . get_the_title() . $after;
         }
 		

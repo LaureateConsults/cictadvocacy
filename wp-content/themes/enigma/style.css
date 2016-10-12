@@ -209,7 +209,7 @@ line-height: 26px;
 /* Flex Slider css *****************************************************************************************************************
 ********************************************************************************************************************************/ 
 .carousel{
-	margin-bottom:40px;
+	margin-bottom:0px;
 }
 
 .carousel-inner img{
@@ -313,13 +313,13 @@ line-height: 26px;
 /** Service Section  ***************************************************************************************************************
 ********************************************************************************************************************************/
 .enigma_service {
-	padding-top:90px;
-	padding-bottom:90px;
+	padding-top:30px;
+	padding-bottom:0px;
 	
 }
 .enigma_service_area{
 	border-radius: 0px;
-	margin-bottom: 65px;
+	margin-bottom: 25px;
 	transition: all 0.4s ease 0s;
 	
 }
@@ -415,8 +415,8 @@ line-height: 26px;
 **************************************************************************************************************************/
 .enigma_project_section{
 	background:#ecf0f1; 
-    padding-top:90px;
-	padding-bottom:90px;
+    padding-top:0px;
+	padding-bottom:0px;
 	border-top:1px solid #DEE1E2;
 	border-bottom:1px solid #DEE1E2;
 }
@@ -907,11 +907,11 @@ transition: all 0.3s ease 0s;
 
 /** wrapper for front page **/
 .enigma_blog_area{
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 }
 .enigma_blog_wrapper{
-	margin-bottom: 90px;
+	margin-bottom: 20px;
 }
 .enigma_blog_thumb_wrapper{
 	margin-bottom:40px;
@@ -941,7 +941,7 @@ transition: all 0.3s ease 0s;
 }
 .enigma_blog_thumb_wrapper{
 	position:relative;
-	overflow:hidden;
+	overflow:visible;
 }
 
 .enigma_blog_thumb_date{
@@ -1018,7 +1018,7 @@ transition: all 0.3s ease 0s;
 	
 }
 .enigma_blog_thumb_wrapper_showcase_overlay {
-      visibility: hidden;
+      visibility: visible;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1754,8 +1754,8 @@ margin-bottom: 20px;
 **************************************************************************************************************************/
 .enigma_testimonial_area{
 	background: #ecf0f1;
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 	border-top: 1px solid #DEE1E2;
 	border-bottom: 1px solid #DEE1E2;
 	text-align:center;
@@ -1822,8 +1822,8 @@ margin-bottom: 20px;
 **************************************************************************************************************************/
 
 .enigma_client_area{
-	padding-top: 90px;
-	padding-bottom: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 
 }
 .enigma_client_wrapper{
