@@ -1823,7 +1823,7 @@ margin-bottom: 20px;
 
 .enigma_client_area{
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 
 }
 .enigma_client_wrapper{
@@ -1876,8 +1876,8 @@ margin-bottom: 20px;
 ***************************************************************************************/
 .enigma_callout_area{
 	width:100%;
-	padding-top:39px;
-	padding-bottom:40px;
+	padding-top:30px;
+	padding-bottom:0px;
 	display:block;
 	overflow:hidden;
 	
@@ -2006,7 +2006,7 @@ margin-bottom: 20px;
 }
 
 .enigma_footer_widget_column{
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 
@@ -2106,7 +2106,7 @@ margin-bottom: 20px;
     height: 40px;
     opacity: 0.5;
     position: fixed;
-    bottom: 100px;
+    bottom: 50px;
     right: 30px;
     display: none;
 	border-radius: 2px;
