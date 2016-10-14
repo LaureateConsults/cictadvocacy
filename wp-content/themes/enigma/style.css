@@ -22,7 +22,7 @@ Text Domain: enigma
 body {
    /* padding:0 30px;*/
    font-family: 'Open Sans', sans-serif;
-   background-color: #fff;
+   background-color: #C0392B;
 
    }
 #wrapper{	
@@ -77,7 +77,7 @@ line-height: 26px;
 .logo a{
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
-	margin-bottom:10px;
+	margin-bottom:0px;
 	font-size: 50px;
 	color: #fff;
 }
@@ -92,29 +92,30 @@ line-height: 26px;
 .social{
 	display: block;
 	text-align: right;
-	padding-top:5px;
+	padding-top:0;
 	padding-bottom:5px;
 
 }
 .social li{
-	font-size:18px;
+	font-size:15px;
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
 	display: inline-block;
-	height: 35px;
+	height: 25px;
 	margin-right: 5px;
-	width: 35px;
+	width: 25px;
+    background: #C0392B;
 	text-align: center;
 	-webkit-transition: background .5s ease-in-out; 
 	-moz-transition: background .5s ease-in-out;
 	-o-transition: background .5s ease-in-out;
 	-ms-transition: background .5s ease-in-out;
 	transition: background .5s ease-in-out; 
-	border: 2px solid #ffffff;
+	border: 2px solid #fff;
 	cursor:pointer;
 }
 .social i  {
-	color:#fff;
+	color:#1F618D;
 	line-height:30px;
 }
 /* facebook */
@@ -138,11 +139,11 @@ line-height: 26px;
 /* dribble */
 .social li.twitter{
 	background-size: 100% 200%;
-	background-image: linear-gradient(to bottom, transparent 50%, #f60 50%);
+	background-image: linear-gradient(to bottom, transparent 50%, #85C1E9 50%);
 }
 .social li.twitter:hover{
 	background-position: 0 -100%;
-	background-color:#f60;
+	background-color:#85C1E9;
 }
 /* linkedin */
 .social li.linkedin{
@@ -173,7 +174,7 @@ line-height: 26px;
 	display: inline-block;
 	margin-top: 0px;
 	letter-spacing: 1px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	line-height: 40px;
 }
 
@@ -193,7 +194,7 @@ line-height: 26px;
 	display: inline-block;
 	margin-top: 0px;
 	letter-spacing: 1px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 }
