@@ -22,7 +22,7 @@
 <div>
 	<!-- Header Section -->
 	<div class="header_section" >
-		<div class="container" >
+		<div class="container" style="height: auto; padding-bottom: 0;">
 			<!-- Logo & Contact Info -->
 			<div class="row ">
 				<div class="col-md-6 col-sm-12 wl_rtl" >					
