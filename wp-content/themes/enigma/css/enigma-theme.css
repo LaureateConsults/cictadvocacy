@@ -27,7 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navigation_menu{
 	width:100%;
-	position: relative; 
+	position: relative;
+    margin-top: 0;
 
 }
 

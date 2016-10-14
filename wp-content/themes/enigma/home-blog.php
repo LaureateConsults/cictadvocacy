@@ -19,7 +19,7 @@
                 $post_type_data = new WP_Query( $args );
                 while($post_type_data->have_posts()):
                     $post_type_data->the_post(); ?>
-                    <div class="col-md-4 col-sm-12 scrollimation scale-in d2 pull-left">
+                   <!-- <div class="col-md-4 col-sm-12 scrollimation scale-in d2 pull-left">-->
                         <div class="enigma_blog_thumb_wrapper">
                             <div class="enigma_blog_thumb_wrapper_showcase">
                                 <?php $img = array('class' => 'enigma_img_responsive');
